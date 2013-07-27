@@ -61,9 +61,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geefhd/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
     vendor/lge/geefhd/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/lge/geefhd/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
+    vendor/lge/geefhd/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
+    vendor/lge/geefhd/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
+    vendor/lge/geefhd/proprietary/etc/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin \
+    vendor/lge/geefhd/proprietary/etc/firmware/fw_bcmdhd_p2p.bin:system/etc/firmware/fw_bcmdhd_p2p.bin \
     vendor/lge/geefhd/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/lge/geefhd/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
     vendor/lge/geefhd/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
+    vendor/lge/geefhd/proprietary/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
     vendor/lge/geefhd/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/lge/geefhd/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/lge/geefhd/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
@@ -134,6 +139,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geefhd/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
     vendor/lge/geefhd/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/lge/geefhd/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
+    vendor/lge/geefhd/proprietary/lib/libmorpho_movie_stabilization.so:system/lib/libmorpho_movie_stabilization.so \
     vendor/lge/geefhd/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/lge/geefhd/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/geefhd/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
