@@ -22,9 +22,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geefhd/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/lge/geefhd/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/lge/geefhd/proprietary/bin/efsks:system/bin/efsks \
+    vendor/lge/geefhd/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/geefhd/proprietary/bin/ks:system/bin/ks \
     vendor/lge/geefhd/proprietary/bin/mm-audio-send-cal:system/bin/mm-audio-send-cal \
-    vendor/lge/geefhd/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/lge/geefhd/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/geefhd/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/geefhd/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -98,6 +98,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geefhd/proprietary/lib/libchromatix_imx111_zsl.so:system/lib/libchromatix_imx111_zsl.so \
     vendor/lge/geefhd/proprietary/lib/libchromatix_imx119_default_video.so:system/lib/libchromatix_imx119_default_video.so \
     vendor/lge/geefhd/proprietary/lib/libchromatix_imx119_preview.so:system/lib/libchromatix_imx119_preview.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_imx119_vt.so:system/lib/libchromatix_imx119_vt.so \
     vendor/lge/geefhd/proprietary/lib/libchromatix_imx132_vt.so:system/lib/libchromatix_imx132_vt.so \
     vendor/lge/geefhd/proprietary/lib/libchromatix_imx132_default_video.so:system/lib/libchromatix_imx132_default_video.so \
     vendor/lge/geefhd/proprietary/lib/libchromatix_imx132_preview.so:system/lib/libchromatix_imx132_preview.so \
@@ -130,8 +131,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geefhd/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/lge/geefhd/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/lge/geefhd/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+    vendor/lge/geefhd/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
     vendor/lge/geefhd/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/lge/geefhd/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
+    vendor/lge/geefhd/proprietary/lib/libmmgesture_services.so:system/lib/libmmgesture_services.so \
+    vendor/lge/geefhd/proprietary/lib/libmmgestures-linux.so:system/lib/libmmgestures-linux.so \
     vendor/lge/geefhd/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/geefhd/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/geefhd/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
@@ -146,6 +150,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geefhd/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/lge/geefhd/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
     vendor/lge/geefhd/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+    vendor/lge/geefhd/proprietary/lib/libproxyhal.so:system/lib/libproxyhal.so \
     vendor/lge/geefhd/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/lge/geefhd/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/lge/geefhd/proprietary/lib/libqdp.so:system/lib/libqdp.so \
