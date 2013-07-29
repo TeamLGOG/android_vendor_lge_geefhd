@@ -76,6 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geefhd/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/lge/geefhd/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
     vendor/lge/geefhd/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+        vendor/lge/geefhd/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/lge/geefhd/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/lge/geefhd/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
     vendor/lge/geefhd/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
@@ -134,6 +135,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geefhd/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
     vendor/lge/geefhd/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/lge/geefhd/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
+    vendor/lge/geefhd/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/geefhd/proprietary/lib/libmmgesture_services.so:system/lib/libmmgesture_services.so \
     vendor/lge/geefhd/proprietary/lib/libmmgestures-linux.so:system/lib/libmmgestures-linux.so \
     vendor/lge/geefhd/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
