@@ -177,6 +177,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geefhd/proprietary/vendor/firmware/discretix/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02 \
     vendor/lge/geefhd/proprietary/vendor/firmware/discretix/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03 \
     vendor/lge/geefhd/proprietary/vendor/firmware/discretix/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt \
+    vendor/lge/geefhd/proprietary/vendor/firmware/BCM4334B0_002.001.013.0271.0333.hcd:system/vendor/firmware/BCM4334B0_002.001.013.0271.0333.hcd \
     vendor/lge/geefhd/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/lge/geefhd/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lge/geefhd/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
