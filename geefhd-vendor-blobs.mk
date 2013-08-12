@@ -17,12 +17,10 @@
 PRODUCT_COPY_FILES += \
     vendor/lge/geefhd/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/lge/geefhd/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
-    vendor/lge/geefhd/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lge/geefhd/proprietary/bin/diag_klog:system/bin/diag_klog \
     vendor/lge/geefhd/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/lge/geefhd/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/lge/geefhd/proprietary/bin/efsks:system/bin/efsks \
-    vendor/lge/geefhd/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/geefhd/proprietary/bin/ks:system/bin/ks \
     vendor/lge/geefhd/proprietary/bin/mm-audio-send-cal:system/bin/mm-audio-send-cal \
     vendor/lge/geefhd/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
