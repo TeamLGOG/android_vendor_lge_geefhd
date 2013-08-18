@@ -74,6 +74,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geefhd/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/lge/geefhd/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
     vendor/lge/geefhd/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/lge/geefhd/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/lge/geefhd/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/lge/geefhd/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/lge/geefhd/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
@@ -86,6 +87,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geefhd/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
     vendor/lge/geefhd/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/lge/geefhd/proprietary/lib/libcamera_fast_af.so:system/lib/libcamera_fast_af.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_imx074_video_hd.so:system/lib/libchromatix_imx074_video_hd.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_imx074_zsl.so:system/lib/libchromatix_imx074_zsl.so \
     vendor/lge/geefhd/proprietary/lib/libchromatix_imx091_default_video.so:system/lib/libchromatix_imx091_default_video.so \
     vendor/lge/geefhd/proprietary/lib/libchromatix_imx091_preview.so:system/lib/libchromatix_imx091_preview.so \
     vendor/lge/geefhd/proprietary/lib/libchromatix_imx091_video_hd.so:system/lib/libchromatix_imx091_video_hd.so \
@@ -99,6 +104,28 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geefhd/proprietary/lib/libchromatix_imx132_vt.so:system/lib/libchromatix_imx132_vt.so \
     vendor/lge/geefhd/proprietary/lib/libchromatix_imx132_default_video.so:system/lib/libchromatix_imx132_default_video.so \
     vendor/lge/geefhd/proprietary/lib/libchromatix_imx132_preview.so:system/lib/libchromatix_imx132_preview.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_mt9e013_default_video.so:system/lib/libchromatix_mt9e013_default_video.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_mt9e013_preview.so:system/lib/libchromatix_mt9e013_preview.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_mt9e013_video_hfr.so:system/lib/libchromatix_mt9e013_video_hfr.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_ov2720_default_video.so:system/lib/libchromatix_ov2720_default_video.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_ov2720_hfr.so:system/lib/libchromatix_ov2720_hfr.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_ov2720_preview.so:system/lib/libchromatix_ov2720_preview.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_ov2720_zsl.so:system/lib/libchromatix_ov2720_zsl.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_ov5647_default_video.so:system/lib/libchromatix_ov5647_default_video.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_ov5647_preview.so:system/lib/libchromatix_ov5647_preview.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_ov8825_default_video.so:system/lib/libchromatix_ov8825_default_video.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_ov8825_preview.so:system/lib/libchromatix_ov8825_preview.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_ov9726_default_video.so:system/lib/libchromatix_ov9726_default_video.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_ov9726_preview.so:system/lib/libchromatix_ov9726_preview.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_s5k3l1yx_default_video.so:system/lib/libchromatix_s5k3l1yx_default_video.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_s5k3l1yx_hfr_120fps.so:system/lib/libchromatix_s5k3l1yx_hfr_120fps.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_s5k3l1yx_hfr_60fps.so:system/lib/libchromatix_s5k3l1yx_hfr_60fps.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_s5k3l1yx_hfr_90fps.so:system/lib/libchromatix_s5k3l1yx_hfr_90fps.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_s5k3l1yx_preview.so:system/lib/libchromatix_s5k3l1yx_preview.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_s5k3l1yx_video_hd.so:system/lib/libchromatix_s5k3l1yx_video_hd.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_s5k3l1yx_zsl.so:system/lib/libchromatix_s5k3l1yx_zsl.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_s5k4e1_default_video.so:system/lib/libchromatix_s5k4e1_default_video.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
     vendor/lge/geefhd/proprietary/lib/libCommandSvc.so:system/lib/libCommandSvc.so \
     vendor/lge/geefhd/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
     vendor/lge/geefhd/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
@@ -113,7 +140,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geefhd/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/lge/geefhd/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
     vendor/lge/geefhd/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/lge/geefhd/proprietary/lib/libgesture-core.so:system/lib/libgesture-core.so \
     vendor/lge/geefhd/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/lge/geefhd/proprietary/lib/libHDR.so:system/lib/libHDR.so \
     vendor/lge/geefhd/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/lge/geefhd/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/lge/geefhd/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
@@ -128,6 +157,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geefhd/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/lge/geefhd/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/lge/geefhd/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+    vendor/lge/geefhd/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/geefhd/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
     vendor/lge/geefhd/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/lge/geefhd/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
@@ -135,10 +165,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geefhd/proprietary/lib/libmmgestures-linux.so:system/lib/libmmgestures-linux.so \
     vendor/lge/geefhd/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/geefhd/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/lge/geefhd/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lge/geefhd/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
     vendor/lge/geefhd/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
     vendor/lge/geefhd/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
     vendor/lge/geefhd/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
+    vendor/lge/geefhd/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
+    vendor/lge/geefhd/proprietary/lib/libmorpho_jpeg_engine.so:system/lib/libmorpho_jpeg_engine.so \
     vendor/lge/geefhd/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/geefhd/proprietary/lib/libmorpho_movie_stabilization.so:system/lib/libmorpho_movie_stabilization.so \
     vendor/lge/geefhd/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
