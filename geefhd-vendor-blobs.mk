@@ -32,6 +32,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geefhd/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/geefhd/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/geefhd/proprietary/bin/radish:system/bin/radish \
+    vendor/lge/geefhd/proprietary/bin/rild:system/bin/rild \
     vendor/lge/geefhd/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/geefhd/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/geefhd/proprietary/bin/thermald:system/bin/thermald \
@@ -193,6 +194,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geefhd/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/lge/geefhd/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     vendor/lge/geefhd/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
+    vendor/lge/geefhd/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/geefhd/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/lge/geefhd/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/lge/geefhd/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
