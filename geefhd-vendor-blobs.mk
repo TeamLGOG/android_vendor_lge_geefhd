@@ -43,6 +43,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geefhd/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
     vendor/lge/geefhd/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/lge/geefhd/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
+    vendor/lge/geefhd/proprietary/vendor/firmware/CE170F00.bin:system/vendor/firmware/CE170F00.bin \
+    vendor/lge/geefhd/proprietary/vendor/firmware/CE170F01.bin:system/vendor/firmware/CE170F01.bin \
+    vendor/lge/geefhd/proprietary/vendor/firmware/CE170F02.bin:system/vendor/firmware/CE170F02.bin \
+    vendor/lge/geefhd/proprietary/vendor/firmware/CE170F03.bin:system/vendor/firmware/CE170F03.bin \
     vendor/lge/geefhd/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
     vendor/lge/geefhd/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
     vendor/lge/geefhd/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
